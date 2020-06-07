@@ -2,8 +2,6 @@ import getTickerInfo
 import googleSheetHandler
 
 ticker = "EBEURHUFTL40"
-# url='https://www.portfolio.hu/tozsde_arfolyamok/bet_reszveny_arfolyamok.html'
-url = 'https://www.portfolio.hu/tozsde_arfolyamok/bet_certifikat_arfolyamok.html'
 
 sourcesURL = {
     "PORTFOLIO_BET" : "https://www.portfolio.hu/tozsde_arfolyamok/bet_reszveny_arfolyamok.html",

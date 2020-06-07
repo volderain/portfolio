@@ -9,6 +9,8 @@ def myGetTickerInfo(ticker, url):
 
     tickerTable=soup.find(id="P_"+ ticker)
 
+    if not tickerTable: return tickerTable
+
     tickerArray = str(tickerTable).split("\n")
     tickerArray.pop(0)
     tickerArray.pop(0)

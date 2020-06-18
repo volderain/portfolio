@@ -1,0 +1,18 @@
+<MyGrid>
+
+    lastUpdateLabel: lastUpdateLabel
+    progressLabel: progressLabel
+
+    GridLayout:
+        cols:1
+        size: root.width-100, root.height-100
+        pos: 50, 50
+        Label:
+            id: lastUpdateLabel
+            text: "Last update performed: "
+        Label:
+            id: progressLabel
+            text: "Ticker information gethered once update is requested"
+        Button:
+            text: "Update ticker information"
+            on_press: root.update()
